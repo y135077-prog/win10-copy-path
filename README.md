@@ -32,6 +32,17 @@
 - ✅ 可完整移除還原
 - ✅ 不需要管理員權限
 
+### 與其他工具比較
+
+| 功能 | 本工具 | [windows-utilities-tweaks](https://github.com/Michael-Matta1/windows-utilities-tweaks) | [Path Copy Copy](https://pathcopycopy.github.io/) |
+|------|--------|----------------------------------------------------------------------------------------|---------------------------------------------------|
+| 適用系統 | Windows 10 | Windows 11 | Windows 10/11 |
+| 需要管理員 | ❌ 不需要 | ✅ 需要 | ✅ 需要安裝 |
+| 中文路徑 | ✅ 支援 | ❌ 只支援英文 | ✅ 支援 |
+| 安裝方式 | 一鍵 .bat | 手動 Registry | 安裝程式 |
+| 第三方軟體 | ❌ 純 Registry | ❌ VBS | ✅ 是 |
+| 特殊字元 | ✅ 支援 | ⚠️ 有限 | ✅ 支援 |
+
 ### 使用方法
 
 **方法一：一鍵安裝（推薦）**
@@ -41,7 +52,7 @@
 
 **方法二：手動安裝**
 1. 下載 `CopyPath.ps1` 並放到 `C:\Users\你的使用者名稱\CopyPath.ps1`
-2. 使用 `regedit` 建立 Registry 機碼（請參考 [INSTALL_zh_TW.md](INSTALL_zh_TW.md)）
+2. 使用 `regedit` 建立 Registry 機碼（請參考 INSTALL_zh_TW.md）
 3. 重啟 explorer.exe 或登出再登入
 
 ### 移除方法
@@ -63,6 +74,17 @@
 - ✅ Only modifies HKCU (current user), no admin required
 - ✅ Fully reversible
 
+### Comparison with Existing Tools
+
+| Feature | This Tool | [windows-utilities-tweaks](https://github.com/Michael-Matta1/windows-utilities-tweaks) | [Path Copy Copy](https://pathcopycopy.github.io/) |
+|---------|-----------|----------------------------------------------------------------------------------------|---------------------------------------------------|
+| OS | Windows 10 | Windows 11 | Windows 10/11 |
+| Admin Required | ❌ No | ✅ Yes | ✅ Installer |
+| Chinese Paths | ✅ Yes | ❌ English only | ✅ Yes |
+| Installation | One-click .bat | Manual Registry | Installer |
+| Third-party | ❌ Registry only | ❌ VBS | ✅ Yes |
+| Special Chars | ✅ Yes | ⚠️ Limited | ✅ Yes |
+
 ### Usage
 
 **Method 1: One-click install (Recommended)**
@@ -72,7 +94,7 @@
 
 **Method 2: Manual install**
 1. Download `CopyPath.ps1` to `C:\Users\YourUsername\CopyPath.ps1`
-2. Create Registry keys (see [INSTALL_en.md](INSTALL_en.md))
+2. Create Registry keys (see INSTALL_en.md)
 3. Restart explorer.exe
 
 ### Uninstall
@@ -94,17 +116,22 @@ Double-click `uninstall.bat` to completely remove.
 - ✅ HKCU（現在のユーザーのみ）を変更、管理者権限不要
 - ✅ 完全に削除可能
 
+### 他のツールとの比較
+
+| 機能 | このツール | windows-utilities-tweaks | Path Copy Copy |
+|------|-----------|------------------------|----------------|
+| 対象OS | Windows 10 | Windows 11 | Windows 10/11 |
+| 管理者権限 | ❌ 不要 | ✅ 必要 | ✅ インストーラー |
+| 日本語パス | ✅ 対応 | ❌ 英語のみ | ✅ 対応 |
+| インストール | ワンクリック .bat | 手動 Registry | インストーラー |
+| サードパーティ | ❌ Registry のみ | ❌ VBS | ✅ はい |
+
 ### 使用方法
 
 **方法1：ワンクリックインストール（推奨）**
 1. このリポジトリをダウンロード
 2. `install.bat` をダブルクリック
 3. エクスプローラーを再起動、またはログオフ/オン
-
-**方法2：手動インストール**
-1. `CopyPath.ps1` を `C:\Users\ユーザー名\CopyPath.ps1` に配置
-2. Registry キーを作成（[INSTALL_ja.md](INSTALL_ja.md) を参照）
-3. explorer.exe を再起動
 
 ### アンインストール
 
@@ -125,17 +152,22 @@ Double-click `uninstall.bat` to completely remove.
 - ✅ HKCU(현재 사용자)만 수정, 관리자 권한 불필요
 - ✅ 완전한 제거 가능
 
+### 다른 도구와 비교
+
+| 기능 | 이 도구 | windows-utilities-tweaks | Path Copy Copy |
+|------|---------|------------------------|----------------|
+| 대상 OS | Windows 10 | Windows 11 | Windows 10/11 |
+| 관리자 권한 | ❌ 불필요 | ✅ 필요 | ✅ 인스톨러 |
+| 한글 경로 | ✅ 지원 | ❌ 영어만 | ✅ 지원 |
+| 설치 방법 | 원클릭 .bat | 수동 Registry | 인스톨러 |
+| 서드파티 | ❌ Registry만 | ❌ VBS | ✅ 예 |
+
 ### 사용 방법
 
 **방법 1: 원클릭 설치 (권장)**
 1. 이 저장소 다운로드
 2. `install.bat` 더블클릭
 3. 파일 탐색기 재시작 또는 로그오프/온
-
-**방법 2: 수동 설치**
-1. `CopyPath.ps1` 을 `C:\Users\사용자명\CopyPath.ps1` 에 배치
-2. Registry 키 생성 ([INSTALL_ko.md](INSTALL_ko.md) 참조)
-3. explorer.exe 재시작
 
 ### 제거 방법
 
@@ -157,17 +189,23 @@ Double-click `uninstall.bat` to completely remove.
 - ✅ 可完整移除还原
 - ✅ 不需要管理员权限
 
+### 与其他工具比较
+
+| 功能 | 本工具 | windows-utilities-tweaks | Path Copy Copy |
+|------|--------|------------------------|----------------|
+| 适用系统 | Windows 10 | Windows 11 | Windows 10/11 |
+| 需要管理员 | ❌ 不需要 | ✅ 需要 | ✅ 需要安装 |
+| 中文路径 | ✅ 支持 | ❌ 只支持英文 | ✅ 支持 |
+| 安装方式 | 一键 .bat | 手动 Registry | 安装程序 |
+| 第三方软件 | ❌ 纯 Registry | ❌ VBS | ✅ 是 |
+| 特殊字符 | ✅ 支持 | ⚠️ 有限 | ✅ 支持 |
+
 ### 使用方法
 
 **方法一：一键安装（推荐）**
 1. 下载本仓库
 2. 双击 `install.bat`
 3. 出现「已成功安装」提示后，重启文件资源管理器或注销再登录
-
-**方法二：手动安装**
-1. 下载 `CopyPath.ps1` 并放到 `C:\Users\你的用户名\CopyPath.ps1`
-2. 使用 `regedit` 建立 Registry 机码（请参考 [INSTALL_zh_CN.md](INSTALL_zh_CN.md)）
-3. 重启 explorer.exe 或注销再登录
 
 ### 移除方法
 
